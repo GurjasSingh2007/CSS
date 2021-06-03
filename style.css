@@ -1,0 +1,31 @@
+h1{
+color:royalblue;
+
+}
+.header{
+background-color: aqua;
+display: flex;
+justify-content: center;
+}
+.side-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+    background-color: seagreen;
+
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-evenly;
+    background-color:green;
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+    background-color: slategray;
+}
+p,h2{
+    text-align: center;
+    background-color: yellow;
+}
